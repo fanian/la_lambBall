@@ -1870,4 +1870,5 @@ footer .footer__bottom span { margin-left: 10px; }
   .header--bottom .header__price--bottom { margin: 0 auto; }
   .intro__item { margin: 0 auto; }
   .intro__item.i1, .intro__item.i2, .intro__item.i3, .intro__item.i4, .intro__item.i5, .intro__item.i6, .intro__item.i7, .intro__item.i8, .intro__item.i9, .intro__item.i10 { left: 0; right: 0; top: 0; bottom: 0; } }
-@media (max-width: 480px) { .title { font-size: 36px !important; } }
+@media (max-width: 480px) { .title { font-size: 36px !important; }
+  .title:after { left: 40%; } }
